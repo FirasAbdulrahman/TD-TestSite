@@ -1,0 +1,138 @@
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  overflow-x: hidden;
+}
+#head {
+  height: auto; /* Full viewport height */
+  overflow: hidden;
+  position: relative;
+  width: 100%
+}
+ .title  {
+    font-size: 55px;
+    font-family: 'Lato', sans-serif;
+    margin-top:1em;
+    margin-left: auto;
+    margin-right:auto;
+    text-align: center;
+
+    /* Stryling the text and giving it gradiant */
+    color:#ffffff;
+    background: -webkit-linear-gradient(#ffffff, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+       
+    /* Make sure text is infront of background images */
+    display:block;
+    position: relative;
+    z-index: 3;
+}
+
+.blackB{
+  background-color: black; 
+  width: 60vw;
+  margin-left: 19%;
+}
+
+.TDL{
+  position:absolute;
+  top:0;
+  left:0;
+ right: 0;
+ bottom: 0;
+  width:100vw;
+  height:100%;
+  display:block;
+}
+
+.TDL {
+  background:#000000 url(TDL.webp) repeat top center;
+  z-index:0;
+  
+}
+
+
+
+.px-4.py-5.my-5.text-center {
+  position: relative;
+  z-index: 3;
+}
+.profile-img {
+  height: 200px;
+  border-radius: 50%;
+}
+.about{
+  font-family: 'Lato', sans-serif;
+  font-size: x-large;
+}
+h2{ color:#ffffff;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 45px;
+  text-align: center;
+
+}
+h3{
+  text-align: center;
+}
+.skill-section {
+  display: flex;
+  align-items: flex-start;   /* vertical alignment */
+  justify-content: flex-start;
+  
+  gap: 10px;             /* space between image and text */
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.wrap {
+  height: 150px;
+  width: 150px;
+  flex-shrink: 0;        /* prevent the image from shrinking */
+}
+
+.skills {
+  font-family: 'Lato', sans-serif;
+  font-size: x-large;
+  margin: 0;
+  
+}
+
+.skill-sections {
+  display: flex;
+  align-items: center;   /* vertical alignment */
+  gap: 10px;             /* space between image and text */
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.wraps {
+  height: 150px;
+  width: 150px;
+  flex-shrink: 0;        /* prevent the image from shrinking */
+}
+
+.skillss {
+  font-family: 'Lato', sans-serif;
+  font-size: x-large;
+  margin: 0;
+}
+.findIMG{
+  margin-left: 300px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  position: relative;
+  z-index: 10px;
+}
+.btn{
+  width: 400px;
+  margin-left: 450px;
+  margin-top: 50px;
+}
